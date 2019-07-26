@@ -14,7 +14,7 @@ const getWeatherState = (weather) => {
 
     if (id < 300) {
         return FOG
-    } else if (id < 405) {
+    } else if (id < 400) {
         return FOG
     } else if (id < 600) {
         return RAIN
